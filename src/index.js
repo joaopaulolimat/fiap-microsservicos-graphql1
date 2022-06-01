@@ -6,7 +6,7 @@ const resolvers = require("./resolvers");
 
 //const urldb = "mongodb://admin:123456@127.0.0.1/admin";
 const urldb =
-  "mongodb+srv://edilson:Alunos123@clusterapi.fkxyi.mongodb.net/basegraphql?retryWrites=true&w=majority";
+  "mongodb+srv://joao:123@cluster0.8g10p.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(urldb, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const server = new ApolloServer({ typeDefs, resolvers });
